@@ -80,7 +80,7 @@ public class MaterialShowcaseInstructionView: UIView {
     primaryLabel.text = primaryText
     primaryLabel.frame = CGRect(x: 0,
                                 y: 0,
-                                width: UIScreen.main.bounds.width,
+                                width: UIScreen.main.bounds.width - 50.0,
                                 height: 0)
 
     primaryLabel.sizeToFitHeight()
